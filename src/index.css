@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+img {
+    width: 90%;
+    height: 80%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background-color: white;
+}
+
+.inputs {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    opacity: 0.6;
+    text-transform: uppercase;
+
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.addMovieBtn {
+    border-radius: 12px;
+    padding: 4px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    box-shadow: 7px 0px 5px 0px black;
 }
