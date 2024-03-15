@@ -4,7 +4,8 @@ img {
 }
 
 body {
-    background-color: white;
+    background-color: rgb(228 228 228);
+    overflow-x: hidden;
 }
 
 .inputs {
@@ -35,4 +36,26 @@ h1 {
     text-transform: capitalize;
     font-size: 15px;
     box-shadow: 7px 0px 5px 0px black;
+}
+
+.muipaper-root {
+    border-radius: 20px;
+}
+
+.progressbar {
+    margin-top: 20px;
+
+}
+
+.search {
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid rgb(78, 78, 78);
+    font-size: 18px;
+    color: rgb(46, 46, 46);
+    opacity: 0.6;
+    padding: 3px 40px 3px 7px;
+    box-shadow: 4px 4px 4px 0px #979595;
+
 }
