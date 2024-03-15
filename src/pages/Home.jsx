@@ -10,8 +10,9 @@ import axios from 'axios';
 import Box from '@mui/material/Box';
 import { Input, TextField } from '@mui/material';
 import Modal from '@mui/material/Modal';
+import { useSelector, useDispatch } from 'react-redux'
+
 import ProgressBar from "@ramonak/react-progress-bar";
-// import img from "../img/desktop-wallpaper-aladdin-movie-poster-in-2160x3840-resolution-live-action-films-thumbnail.jpg"
 
 const style = {
     position: 'absolute',
@@ -116,6 +117,10 @@ export default function Home() {
                 setMovieList(res.data)
             })
     }
+
+    const dispatch = useDispatch()
+
+
     // view data
     function viewMovieData(id) {
         axios.get(`http://localhost:5000/api/movie/view/${id}`,)
